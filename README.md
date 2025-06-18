@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Bogotá Places Discovery
 
-## Getting Started
+A modern web application built with Next.js that helps users discover interesting places in Bogotá, Colombia. The app showcases various locations including cafes, libraries, parks, and cultural sites, making it easier for both locals and tourists to explore the city.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Location Discovery**: Browse through a curated list of places in Bogotá
+- **Categories**: Filter places by categories like Food, Reading, Recreation, and Libraries
+- **Detailed Information**: View key details about each location including description, category, and whether it's free to visit
+- **Responsive Design**: Works seamlessly on both desktop and mobile devices
+- **Modern UI**: Clean and intuitive user interface built with Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 14.6.0 or later
+- npm or yarn package manager
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd next_js
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🏗️ Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/app` - Contains the main application pages and components
+  - `/components` - Reusable UI components
+  - `/locations` - Location-related pages and components
+- `/lib` - Data and utility functions
+- `/public` - Static assets
+
+## 📝 Data
+
+The application uses a static dataset of locations in Bogotá, including:
+- Name and description
+- Location/neighborhood
+- Category (Food, Reading, Recreation, Library)
+- Free/Paid status
+- Unique slug for routing
+
+## 🛠️ Built With
+
+- [Next.js](https://nextjs.org/) - The React Framework
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/) - Popular icons for React
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- All the amazing places in Bogotá that make the city special
+- The Next.js and React communities for their incredible work
